@@ -86,4 +86,6 @@ function addLinks() {
 // *************************************************
 addLinks();
 setInterval(addLinks, 60000);
-$('body').click(function(){setTimeout(addLinks, 1000)})
+$('body').click(function(){
+    setTimeout(addLinks, 1000);
+});
