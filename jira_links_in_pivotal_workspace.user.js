@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Add Jira Links to Pivotal Dashboard
+// @name         jira_links_in_pivotal_workspace.user.js
 // @namespace    http://sensale.net/
 // @version      0.1
 // @description  For Stories linked back to Jira, this will add a direct link to the Jira on the dashboard.
