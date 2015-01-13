@@ -1,7 +1,7 @@
 # userscripts
 Repository to store useful User Scripts for Greasemonkey/Tampermonkey
 
-## Add Jira Links to Pivotal Dashboard
+## Add Jira Links to Pivotal Workspace.user.js
 
 If a Story has a link back to jira, this will the Jira ID as a link back to the
 Jira to the story in the workspace.  Useful if you think of Jiras in terms of
