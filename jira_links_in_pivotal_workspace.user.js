@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         jira_links_in_pivotal_workspace.user.js
+// @name         jira_links_in_pivotal_workspace
 // @namespace    http://sensale.net/
 // @version      0.1
 // @description  For Stories linked back to Jira, this will add a direct link to the Jira on the dashboard.
@@ -47,7 +47,7 @@ function getExternalId(story) {
             if(id !== null) {
                 jiraUrl = jiraBase + id;
                 jiraSpanHtml = '<span class="parens jiraurl_injected">' +
-                               '<a href="jiraUrl">' + id + '</a></span>';
+                               '<a href="' + jiraUrl + '" target="_blank">' + id + '</a></span>';
                 injectionLocation = $(story).find('span[class="post labels"]');
                 console.log("Inserting span: " + jiraSpanHtml);	
                 $(jiraSpanHtml).insertBefore(injectionLocation);
